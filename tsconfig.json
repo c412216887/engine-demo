@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "rootDir": "src",
+    "target": "esnext",               
+    "module": "esnext", 
+    "lib": ["ESNext", "DOM"],
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node"
+  },
+   "exclude": ["node_modules"],
+   "include": ["index.ts", "add.ts", ".eslintrc.cjs", "src/**/*"]
+}
